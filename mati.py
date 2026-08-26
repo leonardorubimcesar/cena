@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-numero = -32
+numero = 0
 if numero < 0:
     message = 'negativo'
     print(message)
