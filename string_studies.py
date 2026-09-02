@@ -48,6 +48,7 @@ dna = "GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAG
 
 #substring = dna[100:200]
 #print(substring.count('G'))
+#print(substring.count('G'))
 
 #exercício 12: contar numero de G's numa substring independente de upper ou lowercase
 
