@@ -45,4 +45,52 @@
 # list_copy2.append('dddd') #instrução 8 - adicionar um elemento à lista list_copy2
 # print(my_list) #instrução 9 - imprimir a lista my_list novamente para verificar se a lista foi alterada
 
-# Exercício 4
+# Exercício 4 - imprimir de 0 a 100
+# contagem = 0
+# while contagem < 101:
+    # print('contagem: ', contagem)
+    # contagem+=1
+
+# Exercício 5 - calcular o fatorial de 1000
+# contagem = 1000
+# fatorial = 1
+# while contagem > 1:
+    # fatorial = fatorial * contagem
+    # contagem = contagem - 1 #à medida que contagem diminui até 0, o fatorial vai aumentando até o valor final
+# print(fatorial)
+
+# Exercício 6
+# p = [101,2,15,22,95,33,2,27,72,15,52]
+#  for num in p:
+#     if num % 2 == 0:
+#         print(num)
+
+# Exercício 7
+# p_ordenada = sorted(p)
+# print(p_ordenada)
+# soma_pares = 0
+# soma_impares = 0
+# for num in p:
+#     if num % 2 == 0:
+#         soma_pares += num
+#     else:
+#         soma_impares += num
+# print ('Soma dos números pares: ',soma_pares, '\nSoma dos números ímpares: ', soma_impares)
+
+# Exercício 8
+# for num in range(100):
+    # print(num)
+for num in range(101):
+    if num > 0:
+        print(num)
+
+
+
+
+
+
+
+
+
+
+    
