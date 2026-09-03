@@ -80,17 +80,21 @@
 # Exercício 8
 # for num in range(100):
     # print(num)
-for num in range(101):
-    if num > 0:
-        print(num)
+# for num in range(101):
+    # if num > 0:
+        # print(num)
 
-
-
-
-
-
-
-
-
-
-    
+# Exercício 9
+import sys
+count = int(sys.argv[1])
+# while count < 100:
+#     print(count)
+#     count+=1 
+#     if count > int(sys.argv[2]):
+#         break
+while count < 100:
+    if count % 2 != 0:
+        print(count)
+    count+=1
+    if count > int(sys.argv[2]):
+        break
