@@ -20,9 +20,9 @@
 # print(string_fav)
 
 # Exercício 2
-# taxa = 'sapiens, erectus, neanderthalensis' #instrução 1 - Criar string
+#taxa = 'sapiens, erectus, neanderthalensis' #instrução 1 - Criar string
 # print(taxa) #instrução 2 - imprimir a string
-# print(taxa[1]) #instrução 3- imprimir taxa[1]
+#print(taxa[1]) #instrução 3- imprimir taxa[1]
 # print(type(taxa)) #instrução 4 - imprimir o tipo da variável taxa
 # split_taxa = taxa.split(', ') #instrução 5 - dividir a string em uma lista de strings
 # print(split_taxa)
@@ -45,23 +45,31 @@
 # list_copy2.append('dddd') #instrução 8 - adicionar um elemento à lista list_copy2
 # print(my_list) #instrução 9 - imprimir a lista my_list novamente para verificar se a lista foi alterada
 
-# Exercício 4 - imprimir de 0 a 100
-# contagem = 0
-# while contagem < 101:
-    # print('contagem: ', contagem)
-    # contagem+=1
+# Exercício 4 - imprimir de 1 a 100
+#contagem = 1
+#while contagem < 101:
+#     print('contagem: ', contagem)
+ #    contagem+=1
 
 # Exercício 5 - calcular o fatorial de 1000
-# contagem = 1000
-# fatorial = 1
-# while contagem > 1:
-    # fatorial = fatorial * contagem
-    # contagem = contagem - 1 #à medida que contagem diminui até 0, o fatorial vai aumentando até o valor final
-# print(fatorial)
+#contagem = 1000
+#fatorial = 1
+#while contagem > 1:
+#     fatorial = fatorial * contagem
+#     contagem -=1 #à medida que contagem diminui até 2, o fatorial vai aumentando até o valor final
+#print(fatorial)
+
+# Outro jeito de realizar o Exercício 5 
+#fatorial = 1
+#contagem = 1
+#while contagem <= 1000:
+#    fatorial = contagem * fatorial
+#    contagem+=1
+#print(fatorial)
 
 # Exercício 6
 # p = [101,2,15,22,95,33,2,27,72,15,52]
-#  for num in p:
+#  for num in p: #for é usado quando há um conjunto fechado, já o while pode ser usado em conjuntos indefinidos
 #     if num % 2 == 0:
 #         print(num)
 
@@ -102,7 +110,7 @@
 #         break
 
 # Exercício 11
-sequencias = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+#sequencias = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
 #   parte 1 - imprimir sequencias
 #for sequencia in sequencias:
 #   print(sequencia)
@@ -114,5 +122,6 @@ sequencias = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGG
 # print(tuplas)
 
 # Exercício 13
-for sequencia in sequencias:
-    print(sequencias.index(sequencia) + 1, len(sequencia), sequencia)
+#for sequencia in sequencias:
+#    print(sequencias.index(sequencia) + 1, len(sequencia), sequencia)
+
