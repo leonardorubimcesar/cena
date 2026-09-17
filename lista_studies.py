@@ -80,21 +80,39 @@
 # Exercício 8
 # for num in range(100):
     # print(num)
+
+# Exercício 9
 # for num in range(101):
     # if num > 0:
         # print(num)
 
-# Exercício 9
-import sys
-count = int(sys.argv[1])
+# Exercício 10
+# import sys
+# count = int(sys.argv[1])
 # while count < 100:
 #     print(count)
 #     count+=1 
 #     if count > int(sys.argv[2]):
 #         break
-while count < 100:
-    if count % 2 != 0:
-        print(count)
-    count+=1
-    if count > int(sys.argv[2]):
-        break
+# while count < 100:
+#     if count % 2 != 0: #para imprimir apenas número ímpares
+#         print(count)
+#     count+=1
+#     if count > int(sys.argv[2]):
+#         break
+
+# Exercício 11
+sequencias = ['ATGCCCGGCCCGGC','GCGTGCTAGCAATACGATAAACCGG', 'ATATATATCGAT','ATGGGCCC']
+#   parte 1 - imprimir sequencias
+#for sequencia in sequencias:
+#   print(sequencia)
+#   parte 2 - imprimir comprimento das sequencias + sequencias
+# print(len(sequencia), sequencia)
+
+# Exercício 12 - imprimir lista de tuplas 
+# tuplas = [(len(seq), seq) for seq in sequencias]
+# print(tuplas)
+
+# Exercício 13
+for sequencia in sequencias:
+    print(sequencias.index(sequencia) + 1, len(sequencia), sequencia)
